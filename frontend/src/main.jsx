@@ -10,11 +10,16 @@ import './index.css';
     const stored = localStorage.getItem('theme');
     if (stored === 'dark') {
       document.body.classList.add('dark');
+      document.documentElement.classList.add('dark');
     } else if (stored === 'light') {
       document.body.classList.remove('dark');
+      document.documentElement.classList.remove('dark');
     } else {
       const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (prefersDark) document.body.classList.add('dark');
+      if (prefersDark) {
+        document.body.classList.add('dark');
+        document.documentElement.classList.add('dark');
+      }
     }
   } catch (_) {
     // ignore

@@ -8,10 +8,13 @@ const getInitialTheme = () => {
 };
 
 const applyTheme = (theme) => {
+  const root = document.documentElement; // <html>
   if (theme === 'dark') {
     document.body.classList.add('dark');
+    root.classList.add('dark');
   } else {
     document.body.classList.remove('dark');
+    root.classList.remove('dark');
   }
 };
 
