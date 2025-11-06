@@ -1,0 +1,127 @@
+.home-container {
+  min-height: 100vh;
+}
+
+.navbar {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  color: #667eea;
+  margin: 0;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-name {
+  color: #666;
+  font-weight: 500;
+}
+
+.home-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.home-header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.feedbacks-section {
+  margin-top: 40px;
+}
+
+.feedbacks-section h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.feedback-card {
+  margin-bottom: 20px;
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.feedback-header h3 {
+  color: #333;
+  margin: 0;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-reviewed {
+  background: #cfe2ff;
+  color: #084298;
+}
+
+.status-resolved {
+  background: #d1e7dd;
+  color: #0f5132;
+}
+
+.feedback-rating {
+  color: #ffc107;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feedback-message {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.feedback-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 1px solid #e1e8ed;
+}
+
+.feedback-date {
+  color: #999;
+  font-size: 14px;
+}
+
