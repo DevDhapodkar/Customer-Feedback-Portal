@@ -4,6 +4,23 @@ import App from './App.jsx';
 import ErrorBoundary from './components/ErrorBoundary.jsx';
 import './index.css';
 
+// Initialize theme before React renders to avoid FOUC
+(() => {
+  try {
+    const stored = localStorage.getItem('theme');
+    if (stored === 'dark') {
+      document.body.classList.add('dark');
+    } else if (stored === 'light') {
+      document.body.classList.remove('dark');
+    } else {
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (prefersDark) document.body.classList.add('dark');
+    }
+  } catch (_) {
+    // ignore
+  }
+})();
+
 const rootElement = document.getElementById('root');
 
 if (!rootElement) {
