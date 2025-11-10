@@ -222,7 +222,18 @@ Note: This compose file assumes MongoDB is already running on your host at `127.
 
 ### Login Page
 
+![Login Page](screenshots/Screenshot%202025-11-10%20at%2010.14.46%20PM.png)
+
 The login page features a dark-themed login form centered on a blurred, dark gradient background. The form is contained within a rounded rectangular card, presenting fields for email and password, a vibrant orange login button, and a sign-up link. The background transitions from darker tones to a warm brown/orange hue, creating a soft ambient glow. A theme toggle button is visible in the bottom right corner.
+
+**UI Explanation:**
+- **Design Philosophy:** The login page uses a Bumble-inspired aesthetic with warm, inviting colors and smooth gradients
+- **User Experience:** The centered card design focuses user attention on the login form, while the blurred background creates depth
+- **Interactive Elements:** 
+  - Input fields have rounded corners and smooth focus transitions
+  - The orange "Login" button uses a gradient that responds to hover with elevation effects
+  - The sign-up link is prominently highlighted in orange to encourage new user registration
+- **Accessibility:** Clear labels, sufficient contrast, and intuitive form layout ensure easy navigation
 
 **Key Elements:**
 - Dark gray input fields with rounded corners
@@ -232,7 +243,16 @@ The login page features a dark-themed login form centered on a blurred, dark gra
 
 ### Signup Page
 
+![Signup Page](screenshots/Screenshot%202025-11-10%20at%2010.15.17%20PM.png)
+
 The signup page displays a "Create Account" form within a dark, rounded rectangular card. The form includes four input fields: Name, Email, Password, and Confirm Password, each with clear labels and placeholder text. A vibrant orange "Sign Up" button is positioned below the fields, and a login link is available at the bottom. The page maintains the same dark theme aesthetic as the login page.
+
+**UI Explanation:**
+- **Design Consistency:** The signup page maintains the same visual language as the login page, creating a cohesive user experience
+- **Form Design:** Four input fields are clearly labeled with helpful placeholder text and validation hints
+- **User Flow:** The password field includes a minimum character requirement hint to guide users, and the confirm password field ensures data accuracy
+- **Navigation:** A login link at the bottom allows existing users to quickly navigate to the login page
+- **Visual Feedback:** Input fields have focus states with orange borders and subtle glow effects
 
 **Key Elements:**
 - Four input fields with dark gray backgrounds
@@ -242,7 +262,16 @@ The signup page displays a "Create Account" form within a dark, rounded rectangu
 
 ### Home Page (Dark Mode)
 
+![Home Page Dark Mode](screenshots/Screenshot%202025-11-10%20at%2010.15.31%20PM.png)
+
 The home page in dark mode features a comprehensive dashboard with a top navigation bar, hero section, statistics dashboard, motivational message, and feedback timeline. The design uses a dark gray/black color scheme with yellow/orange accents.
+
+**UI Explanation:**
+- **Navigation Design:** The top navigation bar features a yellow "CF" icon with the brand name "Feedback-me.com", creating strong brand recognition. User greeting and action buttons are positioned on the right for easy access.
+- **Hero Section:** The hero section uses friendly, conversational language ("Hey Dev 👋") to create a personal connection. The headline uses playful, rhyming language that matches the Bumble-inspired aesthetic.
+- **Statistics Dashboard:** Four stat cards provide at-a-glance feedback metrics, helping users understand their feedback history quickly. The cards use a grid layout for easy scanning.
+- **Motivational Elements:** A "Vibes are glowing ✨" message with a yellow heart icon adds personality and encourages continued engagement.
+- **Feedback Timeline:** Filter pills allow users to quickly filter their feedback by status, while feedback cards display in a grid layout for efficient browsing.
 
 **Key Features:**
 - **Navigation Bar:** Yellow "CF" icon, "CUSTOMER FEEDBACK" label, "Feedback-me.com" brand name, user greeting, "Admin Panel" and "Logout" buttons
@@ -253,7 +282,16 @@ The home page in dark mode features a comprehensive dashboard with a top navigat
 
 ### Home Page (Light Mode)
 
+![Home Page Light Mode](screenshots/Screenshot%202025-11-10%20at%2010.15.38%20PM.png)
+
 The light mode version maintains the same structure but with a warm, light color scheme. The background transitions from light beige/yellow to cream, with orange and yellow accents for interactive elements.
+
+**UI Explanation:**
+- **Theme Consistency:** The light mode maintains the same layout and functionality as dark mode, ensuring a consistent user experience across themes
+- **Color Psychology:** The warm yellow/orange color palette creates an optimistic, friendly atmosphere that encourages user engagement
+- **Visual Hierarchy:** White cards on a warm background create clear visual separation and focus attention on content
+- **Accessibility:** Light mode provides high contrast for users who prefer brighter interfaces or work in well-lit environments
+- **Theme Toggle:** Users can easily switch between light and dark modes using the theme toggle button
 
 **Key Features:**
 - Light beige/yellow header with orange "CF" avatar
@@ -264,17 +302,35 @@ The light mode version maintains the same structure but with a warm, light color
 
 ### Feedback Submission Form
 
+![Feedback Form](screenshots/Screenshot%202025-11-10%20at%2010.16.08%20PM.png)
+
 The feedback submission form is displayed in a prominent white card with rounded corners. It includes:
 - **Subject Field:** Pre-filled with "I'm very satisfied with the service"
 - **Rating Section:** Five star icons with four filled (4-star rating)
 - **Message Field:** Large text area for detailed feedback
 - **Submit Button:** Orange-yellow "Submit Feedback" button
 
+**UI Explanation:**
+- **Form Design:** The form uses a clean, card-based layout that focuses user attention on the feedback submission process
+- **Interactive Rating:** The star rating system uses clickable stars that fill with color, providing immediate visual feedback
+- **User Guidance:** Clear labels and placeholder text guide users through the submission process
+- **Visual Feedback:** The submit button uses a gradient that responds to hover, providing clear interactive feedback
+- **Accessibility:** Form fields have clear focus states and sufficient contrast for easy navigation
+
 The form appears below the "Vibes are glowing" banner and above the feedback timeline section.
 
 ### Admin Panel - Operations Suite
 
+![Admin Panel](screenshots/Screenshot%202025-11-10%20at%2010.16.19%20PM.png)
+
 The admin panel features a comprehensive operations dashboard with a clean, modern design using a light color scheme with warm orange and yellow accents.
+
+**UI Explanation:**
+- **Dashboard Design:** The admin panel provides a comprehensive overview of all feedback with key statistics at a glance
+- **Hero Section:** The "Operations view" badge and motivational headline create a professional yet friendly atmosphere
+- **Statistics Cards:** Four stat cards display total feedback, average rating, pending, and resolved counts, helping admins quickly assess the feedback landscape
+- **Filter System:** Filter pills allow admins to quickly filter feedback by status, improving workflow efficiency
+- **Single-Column Layout:** The single-column layout ensures all feedback information is clearly visible and accessible
 
 **Key Sections:**
 - **Hero Section:** "Operations view" badge, headline "Keep the community glowing", descriptive text, and four statistics cards (Total Feedback: 6, Avg. Rating: 3.5, Pending: 2, Resolved: 1)
@@ -290,7 +346,17 @@ The admin panel features a comprehensive operations dashboard with a clean, mode
 
 ### Admin Panel - Feedback Cards Detail
 
+![Admin Feedback Cards](screenshots/Screenshot%202025-11-10%20at%2010.16.26%20PM.png)
+
 This view showcases the detailed feedback cards in the admin panel, demonstrating the single-column layout where each card spans the full width of the content area.
+
+**UI Explanation:**
+- **Card Design:** Each feedback card uses a clean, card-based layout with rounded corners and subtle shadows for depth
+- **Information Hierarchy:** The date is displayed at the top left, followed by the subject/title, user information, and rating
+- **Status Management:** Three interactive status pills (Pending, Reviewed, Resolved) at the bottom right allow admins to quickly update feedback status with a single click
+- **Visual Feedback:** Status pills change color when active, providing clear visual feedback about the current status
+- **Color Coding:** Different background colors (pink for reviewed, yellow for pending) help admins quickly identify feedback status at a glance
+- **Single-Column Layout:** The single-column layout ensures all elements, including the status pills, are fully contained within each card and easily accessible
 
 **Card Features:**
 - Light pink or yellow backgrounds with rounded corners
@@ -304,6 +370,36 @@ This view showcases the detailed feedback cards in the admin panel, demonstratin
 - Status badge in the top right corner (PENDING, REVIEWED, or RESOLVED)
 
 The single-column layout ensures all elements, including the status pills, are fully contained within each card and easily accessible.
+
+### Additional UI Views
+
+![Feedback Timeline View](screenshots/Screenshot%202025-11-10%20at%2010.16.31%20PM.png)
+
+The feedback timeline view shows filtered feedback cards with status indicators and interactive elements.
+
+![Admin Panel Filter View](screenshots/Screenshot%202025-11-10%20at%2010.16.36%20PM.png)
+
+The admin panel with active filters showing filtered feedback entries based on selected status.
+
+![Feedback Card States](screenshots/Screenshot%202025-11-10%20at%2010.16.42%20PM.png)
+
+Different feedback card states showing various status badges and color coding for easy identification.
+
+![Admin Operations View](screenshots/Screenshot%202025-11-10%20at%2010.16.49%20PM.png)
+
+The admin operations view with statistics dashboard and feedback management interface.
+
+![User Feedback Dashboard](screenshots/Screenshot%202025-11-10%20at%2010.16.53%20PM.png)
+
+The user feedback dashboard showing personal feedback history and statistics.
+
+![Status Management Interface](screenshots/Screenshot%202025-11-10%20at%2010.16.56%20PM.png)
+
+The status management interface showing interactive status pills and feedback details.
+
+![Complete Admin View](screenshots/Screenshot%202025-11-10%20at%2010.17.00%20PM.png)
+
+A complete view of the admin panel showing all feedback entries with full details and management options.
 
 ### Design Highlights
 
