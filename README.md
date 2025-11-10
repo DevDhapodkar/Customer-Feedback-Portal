@@ -221,7 +221,6 @@ Note: This compose file assumes MongoDB is already running on your host at `127.
 ## UI Screenshots and Descriptions
 
 ### Login Page
-![Login Page](images/login.png)
 
 The login page features a dark-themed login form centered on a blurred, dark gradient background. The form is contained within a rounded rectangular card, presenting fields for email and password, a vibrant orange login button, and a sign-up link. The background transitions from darker tones to a warm brown/orange hue, creating a soft ambient glow. A theme toggle button is visible in the bottom right corner.
 
@@ -232,7 +231,6 @@ The login page features a dark-themed login form centered on a blurred, dark gra
 - Clean, modern design with subtle shadows
 
 ### Signup Page
-![Signup Page](images/signup.png)
 
 The signup page displays a "Create Account" form within a dark, rounded rectangular card. The form includes four input fields: Name, Email, Password, and Confirm Password, each with clear labels and placeholder text. A vibrant orange "Sign Up" button is positioned below the fields, and a login link is available at the bottom. The page maintains the same dark theme aesthetic as the login page.
 
@@ -243,7 +241,6 @@ The signup page displays a "Create Account" form within a dark, rounded rectangu
 - "Already have an account? Login" link
 
 ### Home Page (Dark Mode)
-![Home Page Dark Mode](images/home-dark.png)
 
 The home page in dark mode features a comprehensive dashboard with a top navigation bar, hero section, statistics dashboard, motivational message, and feedback timeline. The design uses a dark gray/black color scheme with yellow/orange accents.
 
@@ -255,7 +252,6 @@ The home page in dark mode features a comprehensive dashboard with a top navigat
 - **Feedback Timeline:** Filter pills (All, Pending, Reviewed, Resolved) and feedback cards displayed side-by-side
 
 ### Home Page (Light Mode)
-![Home Page Light Mode](images/home-light.png)
 
 The light mode version maintains the same structure but with a warm, light color scheme. The background transitions from light beige/yellow to cream, with orange and yellow accents for interactive elements.
 
@@ -267,7 +263,6 @@ The light mode version maintains the same structure but with a warm, light color
 - Clean, modern design with soft shadows
 
 ### Feedback Submission Form
-![Feedback Form](images/feedback-form.png)
 
 The feedback submission form is displayed in a prominent white card with rounded corners. It includes:
 - **Subject Field:** Pre-filled with "I'm very satisfied with the service"
@@ -278,7 +273,6 @@ The feedback submission form is displayed in a prominent white card with rounded
 The form appears below the "Vibes are glowing" banner and above the feedback timeline section.
 
 ### Admin Panel - Operations Suite
-![Admin Panel](images/admin-panel.png)
 
 The admin panel features a comprehensive operations dashboard with a clean, modern design using a light color scheme with warm orange and yellow accents.
 
@@ -295,7 +289,6 @@ The admin panel features a comprehensive operations dashboard with a clean, mode
   - Status badge in the top right corner
 
 ### Admin Panel - Feedback Cards Detail
-![Admin Feedback Cards](images/admin-feedback-cards.png)
 
 This view showcases the detailed feedback cards in the admin panel, demonstrating the single-column layout where each card spans the full width of the content area.
 
