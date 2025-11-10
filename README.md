@@ -222,7 +222,7 @@ Note: This compose file assumes MongoDB is already running on your host at `127.
 
 ### Login Page
 
-![Login Page](screenshots/Screenshot 2025-11-10 at 10.14.46 PM.png)
+![Login Page](screenshots/Screenshot-2025-11-10-at-10.14.46-PM.png)
 
 The login page features a dark-themed login form centered on a blurred, dark gradient background. The form is contained within a rounded rectangular card, presenting fields for email and password, a vibrant orange login button, and a sign-up link. The background transitions from darker tones to a warm brown/orange hue, creating a soft ambient glow. A theme toggle button is visible in the bottom right corner.
 
@@ -243,7 +243,7 @@ The login page features a dark-themed login form centered on a blurred, dark gra
 
 ### Signup Page
 
-![Signup Page](screenshots/Screenshot 2025-11-10 at 10.15.17 PM.png)
+![Signup Page](screenshots/Screenshot-2025-11-10-at-10.15.17-PM.png)
 
 The signup page displays a "Create Account" form within a dark, rounded rectangular card. The form includes four input fields: Name, Email, Password, and Confirm Password, each with clear labels and placeholder text. A vibrant orange "Sign Up" button is positioned below the fields, and a login link is available at the bottom. The page maintains the same dark theme aesthetic as the login page.
 
@@ -262,7 +262,7 @@ The signup page displays a "Create Account" form within a dark, rounded rectangu
 
 ### Home Page (Dark Mode)
 
-![Home Page Dark Mode](screenshots/Screenshot 2025-11-10 at 10.15.31 PM.png)
+![Home Page Dark Mode](screenshots/Screenshot-2025-11-10-at-10.15.31-PM.png)
 
 The home page in dark mode features a comprehensive dashboard with a top navigation bar, hero section, statistics dashboard, motivational message, and feedback timeline. The design uses a dark gray/black color scheme with yellow/orange accents.
 
@@ -282,7 +282,7 @@ The home page in dark mode features a comprehensive dashboard with a top navigat
 
 ### Home Page (Light Mode)
 
-![Home Page Light Mode](screenshots/Screenshot 2025-11-10 at 10.15.38 PM.png)
+![Home Page Light Mode](screenshots/Screenshot-2025-11-10-at-10.15.38-PM.png)
 
 The light mode version maintains the same structure but with a warm, light color scheme. The background transitions from light beige/yellow to cream, with orange and yellow accents for interactive elements.
 
@@ -302,7 +302,7 @@ The light mode version maintains the same structure but with a warm, light color
 
 ### Feedback Submission Form
 
-![Feedback Form](screenshots/Screenshot 2025-11-10 at 10.16.08 PM.png)
+![Feedback Form](screenshots/Screenshot-2025-11-10-at-10.16.08-PM.png)
 
 The feedback submission form is displayed in a prominent white card with rounded corners. It includes:
 - **Subject Field:** Pre-filled with "I'm very satisfied with the service"
@@ -321,7 +321,7 @@ The form appears below the "Vibes are glowing" banner and above the feedback tim
 
 ### Admin Panel - Operations Suite
 
-![Admin Panel](screenshots/Screenshot 2025-11-10 at 10.16.19 PM.png)
+![Admin Panel](screenshots/Screenshot-2025-11-10-at-10.16.19-PM.png)
 
 The admin panel features a comprehensive operations dashboard with a clean, modern design using a light color scheme with warm orange and yellow accents.
 
@@ -346,7 +346,7 @@ The admin panel features a comprehensive operations dashboard with a clean, mode
 
 ### Admin Panel - Feedback Cards Detail
 
-![Admin Feedback Cards](screenshots/Screenshot 2025-11-10 at 10.16.26 PM.png)
+![Admin Feedback Cards](screenshots/Screenshot-2025-11-10-at-10.16.26-PM.png)
 
 This view showcases the detailed feedback cards in the admin panel, demonstrating the single-column layout where each card spans the full width of the content area.
 
@@ -373,31 +373,31 @@ The single-column layout ensures all elements, including the status pills, are f
 
 ### Additional UI Views
 
-![Feedback Timeline View](screenshots/Screenshot 2025-11-10 at 10.16.31 PM.png)
+![Feedback Timeline View](screenshots/Screenshot-2025-11-10-at-10.16.31-PM.png)
 
 The feedback timeline view shows filtered feedback cards with status indicators and interactive elements.
 
-![Admin Panel Filter View](screenshots/Screenshot 2025-11-10 at 10.16.36 PM.png)
+![Admin Panel Filter View](screenshots/Screenshot-2025-11-10-at-10.16.36-PM.png)
 
 The admin panel with active filters showing filtered feedback entries based on selected status.
 
-![Feedback Card States](screenshots/Screenshot 2025-11-10 at 10.16.42 PM.png)
+![Feedback Card States](screenshots/Screenshot-2025-11-10-at-10.16.42-PM.png)
 
 Different feedback card states showing various status badges and color coding for easy identification.
 
-![Admin Operations View](screenshots/Screenshot 2025-11-10 at 10.16.49 PM.png)
+![Admin Operations View](screenshots/Screenshot-2025-11-10-at-10.16.49-PM.png)
 
 The admin operations view with statistics dashboard and feedback management interface.
 
-![User Feedback Dashboard](screenshots/Screenshot 2025-11-10 at 10.16.53 PM.png)
+![User Feedback Dashboard](screenshots/Screenshot-2025-11-10-at-10.16.53-PM.png)
 
 The user feedback dashboard showing personal feedback history and statistics.
 
-![Status Management Interface](screenshots/Screenshot 2025-11-10 at 10.16.56 PM.png)
+![Status Management Interface](screenshots/Screenshot-2025-11-10-at-10.16.56-PM.png)
 
 The status management interface showing interactive status pills and feedback details.
 
-![Complete Admin View](screenshots/Screenshot 2025-11-10 at 10.17.00 PM.png)
+![Complete Admin View](screenshots/Screenshot-2025-11-10-at-10.17.00-PM.png)
 
 A complete view of the admin panel showing all feedback entries with full details and management options.
 
