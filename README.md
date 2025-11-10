@@ -218,6 +218,120 @@ Note: This compose file assumes MongoDB is already running on your host at `127.
 - How to run: See Quick Start and Environment Configuration
 - Screens/Flows: Signup, Login, Home (user feedback list & submission), Admin (manage all feedback)
 
+## UI Screenshots and Descriptions
+
+### Login Page
+![Login Page](images/login.png)
+
+The login page features a dark-themed login form centered on a blurred, dark gradient background. The form is contained within a rounded rectangular card, presenting fields for email and password, a vibrant orange login button, and a sign-up link. The background transitions from darker tones to a warm brown/orange hue, creating a soft ambient glow. A theme toggle button is visible in the bottom right corner.
+
+**Key Elements:**
+- Dark gray input fields with rounded corners
+- Orange "Login" button with white text
+- "Don't have an account? Sign Up" link with orange highlight
+- Clean, modern design with subtle shadows
+
+### Signup Page
+![Signup Page](images/signup.png)
+
+The signup page displays a "Create Account" form within a dark, rounded rectangular card. The form includes four input fields: Name, Email, Password, and Confirm Password, each with clear labels and placeholder text. A vibrant orange "Sign Up" button is positioned below the fields, and a login link is available at the bottom. The page maintains the same dark theme aesthetic as the login page.
+
+**Key Elements:**
+- Four input fields with dark gray backgrounds
+- Password field includes minimum character requirement hint
+- Orange "Sign Up" button
+- "Already have an account? Login" link
+
+### Home Page (Dark Mode)
+![Home Page Dark Mode](images/home-dark.png)
+
+The home page in dark mode features a comprehensive dashboard with a top navigation bar, hero section, statistics dashboard, motivational message, and feedback timeline. The design uses a dark gray/black color scheme with yellow/orange accents.
+
+**Key Features:**
+- **Navigation Bar:** Yellow "CF" icon, "CUSTOMER FEEDBACK" label, "Feedback-me.com" brand name, user greeting, "Admin Panel" and "Logout" buttons
+- **Hero Section:** "Hey Dev 👋" badge, headline "Share the sparks, flag the bumps, keep the journey glowing", action buttons "Share fresh feedback" and "Browse my story"
+- **Statistics Dashboard:** Four cards showing Total Entries (2), Average Rating (5.0), Pending (1), and Resolved (0)
+- **Motivational Message:** Yellow heart icon with "Vibes are glowing ✨" message
+- **Feedback Timeline:** Filter pills (All, Pending, Reviewed, Resolved) and feedback cards displayed side-by-side
+
+### Home Page (Light Mode)
+![Home Page Light Mode](images/home-light.png)
+
+The light mode version maintains the same structure but with a warm, light color scheme. The background transitions from light beige/yellow to cream, with orange and yellow accents for interactive elements.
+
+**Key Features:**
+- Light beige/yellow header with orange "CF" avatar
+- Off-white hero card with rounded corners
+- Four statistics cards with white backgrounds
+- Warm orange/yellow color palette throughout
+- Clean, modern design with soft shadows
+
+### Feedback Submission Form
+![Feedback Form](images/feedback-form.png)
+
+The feedback submission form is displayed in a prominent white card with rounded corners. It includes:
+- **Subject Field:** Pre-filled with "I'm very satisfied with the service"
+- **Rating Section:** Five star icons with four filled (4-star rating)
+- **Message Field:** Large text area for detailed feedback
+- **Submit Button:** Orange-yellow "Submit Feedback" button
+
+The form appears below the "Vibes are glowing" banner and above the feedback timeline section.
+
+### Admin Panel - Operations Suite
+![Admin Panel](images/admin-panel.png)
+
+The admin panel features a comprehensive operations dashboard with a clean, modern design using a light color scheme with warm orange and yellow accents.
+
+**Key Sections:**
+- **Hero Section:** "Operations view" badge, headline "Keep the community glowing", descriptive text, and four statistics cards (Total Feedback: 6, Avg. Rating: 3.5, Pending: 2, Resolved: 1)
+- **Feedback Control Center:** Title with subtitle "Filter by status to focus your workflow", four filter pills (All, Pending, Reviewed, Resolved)
+- **Feedback List:** Single-column layout with individual feedback cards, each containing:
+  - Date and subject
+  - User name and email
+  - Star rating
+  - Feedback message
+  - Update timestamp
+  - Three interactive status pills (Pending, Reviewed, Resolved) at the bottom right
+  - Status badge in the top right corner
+
+### Admin Panel - Feedback Cards Detail
+![Admin Feedback Cards](images/admin-feedback-cards.png)
+
+This view showcases the detailed feedback cards in the admin panel, demonstrating the single-column layout where each card spans the full width of the content area.
+
+**Card Features:**
+- Light pink or yellow backgrounds with rounded corners
+- Date displayed at the top left
+- Bold subject/title
+- User information (name and email)
+- Star rating visualization
+- Detailed feedback message
+- "Updated" timestamp at the bottom left
+- Three interactive status pills at the bottom right (Pending, Reviewed, Resolved)
+- Status badge in the top right corner (PENDING, REVIEWED, or RESOLVED)
+
+The single-column layout ensures all elements, including the status pills, are fully contained within each card and easily accessible.
+
+### Design Highlights
+
+**Color Scheme:**
+- **Light Mode:** Warm yellows, creams, and oranges with white cards
+- **Dark Mode:** Dark grays and blacks with yellow/orange accents
+- **Status Colors:** Yellow (Pending), Pink (Reviewed), Green (Resolved)
+
+**Interactive Elements:**
+- Rounded corners on all cards and buttons
+- Smooth hover effects and transitions
+- Pill-shaped filter and status buttons
+- Star ratings with visual feedback
+- Theme toggle for light/dark mode switching
+
+**Layout:**
+- Responsive single-column layout for feedback cards
+- Grid layout for statistics dashboard
+- Clean spacing and typography
+- Modern, Bumble-inspired aesthetic
+
 ## License
 
 This project is created for educational purposes.
